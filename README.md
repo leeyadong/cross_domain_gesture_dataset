@@ -12,7 +12,7 @@ This is an open-source mmWave gesture dataset collected from various domains (i.
 # Dataset Implementation
 ## Hardware Configuration
 This dataset is collected by TI AWR1843 mmWave radar (left) and DCA1000 real-time data acquisition board (right).
-![dca](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/657dc40cdebc5231779ba1d21b4a0bb5678a8487/dca1000.png)
+![dca](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/7eea4fdf0b61f3463a1812acf46e9c2c5cf7c994/awr1843dca1000.png)
 
 The parameters of the radar are set as follows:
 Parameter|Value|Parameter|Value

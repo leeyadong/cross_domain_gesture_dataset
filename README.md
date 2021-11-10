@@ -1,7 +1,7 @@
 # mmWave_cross_domain_gesture_dataset
 This is an open-source mmWave gesture dataset collected from various domains (i.e. environments, users and locations), and it can be used to develop domain-independent gesture recognition systems based on mmWave radar. The total size of this dataset is 5.3GB and we upload it to Google drive. Following we introduce the composition and implementation details of this dataset. 
 # Dataset Composition
-![Data collecting setup and five anchor locations](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/9f63656ba07b819de6dcf333e9b1aee2c5f1ac6e/datacollect.png)
+![Data collecting](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/9f63656ba07b819de6dcf333e9b1aee2c5f1ac6e/datacollect.png)
 - **750 domains**: 6 environments x 25 volunteers x 5 locations
 - **6 environments**：meeting room, living room, bedroom, laboratory and 2 office rooms
 - **25 volunteers**：25 users with different sex, ages, heights and weights.
@@ -27,5 +27,6 @@ Under these settings the radar achieves a frame rate of **20fps**, a range resol
 ## Data preprocessing
 The raw signals are processed into **Dynamic Range Agnle Image (DRAI)** sequences through 3D-FFT and noise elimination. DRAI depicts doppler power distribution over spatial positions when people perform gestures. For example, the following figure shows a series of DRAI when user perform gesture "push" . In DRAI, the pixel intensity corresponds to doppler power, the horizontal axis is angle of arrival and the vertical axis is range. We can observe that when users perform push, the brightest spot moves vertically which denotes distance changes of hands.
 
+![push](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/89f8dedbbcbbabd2eb627e8d10712dab9f5016d2/push.png)
 ## File Structure
 we save the DRAI as numpy arrays. Each 

@@ -15,7 +15,7 @@ This dataset is collected by TI AWR1843 mmWave radar and DCA1000 real-time data 
 
 The parameters of the radar are set as follows:
 Parameter|Value|Parameter|Value
----|:--|:---|:--:
+:--:|:--:|:--:|:--:
 Start frequency|77GHz|Sample points |128
 Frequency slope|99.987MHz/µs|Sample rate |4MHz
 Idle time |340µs|Chirps in one frame |128
@@ -29,4 +29,14 @@ The raw signals are processed into **Dynamic Range Agnle Image (DRAI)** sequence
 
 ![push](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/89f8dedbbcbbabd2eb627e8d10712dab9f5016d2/push.png)
 ## Dataset Structure
-The DRAI sequence of each gesture sample is saved as numpy array with 3 dimensions T x 32 x 32, where the first dimension represents the frame length of the DRAI sequence, and the last two dimensions represent the size of one frame DRAI.  The format of each .npy filename is **y/n_GestureName_EnvironmentLabel_UserLabel_PositionLabel_SampleLabel.npy** and the first character represents whether it is a predefined gesture (y) or negative sample (n). For example, the filename "y_SlideRight_e6_u21_p5_s4" denotes that it is the 4th sample of predefined gesture "SlideRight" performed by user21 at environment6, location5.
+The DRAI sequence of each gesture sample is saved as numpy array with 3 dimensions T x 32 x 32, where the first dimension represents the frame length of the DRAI sequence, and the last two dimensions represent the size of one frame DRAI.  The format of each .npy filename is **y/n_GestureName_EnvironmentLabel_UserLabel_PositionLabel_SampleLabel.npy** and the first character represents whether it is a predefined gesture (y) or negative sample (n). For example, the filename "y_SlideRight_e6_u21_p5_s4" denotes that it is the 4th sample of predefined gesture "SlideRight" performed by user21 at location5 in environment6.
+
+The number of samples collected from each volunteer is as follows:
+User|Sample
+:--:|:--:
+User A-User G (7) | 7 Users x 5 Rooms x  5 Locations x (6 Gestures  x 5 Instances + 60 Negative samples) = 12250 Samples
+User H-User I (2) | 2 Users x 4 Rooms x  5 Locations x (6 Gestures x 5 Instances + 60 Negative samples) = 2800 Samples
+User J-User L (3) | 3 Users x 3 Rooms x 5 Locations x  (6 Gestures x 5 Instances + 60 Negative samples) = 3150 Samples
+User M-User N (2) | 2 Users x 2 Rooms x 5 Locations x (6 Gestures x 5 Instances + 60 Negative samples) = 1400 Samples
+User O-User R (4) | 4 Users x 1 Room x 5 Locations x (6 Gestures  x 10 Instances + 60 Negative samples) = 2000 Samples
+User S-User Y (7) | 7 Users x 1 Room x 5 Locations x (6 Gestures x 5 Instances + 60 Negative samples) = 2450 Samples

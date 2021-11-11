@@ -7,7 +7,7 @@ This is an open-source mmWave gesture dataset collected from various domains (i.
 - **25 volunteers**：25 users with different sex, ages, heights and weights.
 - **5 locations**：5 anchor locations with different distances and angles away from the radar, ranging from 0.6m to 1m and -30° ,to 30°.
 - **13 gestures**: 6 predefined gestures (push, pull, slide left, slide right, clockwise turning, counterclockwise turning) and 7 other actions as negative samples (lifting right arm, lifting left arm, sitting down, standing up, waving hand, turn around, walking).
-- **24050 samples**: 10650 gesture samples + 13400 negative samples, with radar frames in total.
+- **24050 samples**: 10650 gesture samples + 13400 negative samples, with 695193 radar frames in total.
 
 # Dataset Implementation
 ## Hardware Configuration

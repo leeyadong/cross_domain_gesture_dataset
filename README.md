@@ -41,3 +41,14 @@ User J-User L (3) | 3 Users x 3 Rooms x 5 Locations x  (6 Gestures x 5 Instances
 User M-User N (2) | 2 Users x 2 Rooms x 5 Locations x (6 Gestures x 5 Instances + 60 Negative samples) = 1400 Samples
 User O-User R (4) | 4 Users x 1 Room x 5 Locations x (6 Gestures  x 10 Instances + 60 Negative samples) = 2000 Samples
 User S-User Y (7) | 7 Users x 1 Room x 5 Locations x (6 Gestures x 5 Instances + 60 Negative samples) = 2450 Samples
+
+## Citation
+If you use this dataset, please cite the following paper:
+@misc{li2021domainindependent,
+      title={Towards Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal}, 
+      author={Yadong Li and Dongheng Zhang and Jinbo Chen and Jinwei Wan and Dong Zhang and Yang Hu and Qibin Sun and Yan Chen},
+      year={2021},
+      eprint={2111.06195},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}

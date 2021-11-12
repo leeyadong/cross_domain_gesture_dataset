@@ -12,6 +12,7 @@ This is an open-source mmWave gesture dataset collected from various domains (i.
 # Dataset Implementation
 ## Hardware Configuration
 - This dataset is collected by TI AWR1843 mmWave radar (left) and DCA1000 real-time data acquisition board (right).
+
 ![dca](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/7eea4fdf0b61f3463a1812acf46e9c2c5cf7c994/awr1843dca1000.png)
 
 - The parameters of the radar are set as follows:
@@ -36,6 +37,7 @@ The raw signals are processed into **Dynamic Range Agnle Image (DRAI)** sequence
 - The example video of how to perform the predefined gestures can be viewed [here](https://github.com/DI-HGR/cross_domain_gesture_dataset/blob/df3663a87b71f58edaf694b033793218bb766ac1/gesture_sample.MP4).
 
 - The number of samples collected from each volunteer is as follows:
+
 User|Sample
 :--:|:--:
 User A-User G (7) | 7 Users x 5 Rooms x  5 Locations x (6 Gestures  x 5 Instances + 60 Negative samples) = 12250 Samples

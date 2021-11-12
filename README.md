@@ -1,6 +1,6 @@
 # mmWave_cross_domain_gesture_dataset
 This is an open-source mmWave gesture dataset collected from various domains (i.e. environments, users and locations), and it can be used to develop domain-independent gesture recognition systems based on mmWave radar. The total size of this dataset is 5.3GB and it can be downloaded from [Google drive](https://drive.google.com/file/d/1zI2tIdUZfkuOs2PK5mYnzfSK8XBBqL--/view?usp=sharing). Following we introduce the composition and implementation details of this dataset. 
-# Dataset Composition
+# Dataset Introduction
 ![Data collecting](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/f1116dc135d9783a0f1a806ae63b8e577bc41a09/env.png)
 - **750 domains**: 6 environments x 25 volunteers x 5 locations
 - **6 environments**：meeting room, living room, bedroom, laboratory and 2 office rooms

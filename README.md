@@ -45,7 +45,7 @@ User O-User R (4) | 4 Users x 1 Room x 5 Locations x (6 Gestures  x 10 Instances
 User S-User Y (7) | 7 Users x 1 Room x 5 Locations x (6 Gestures x 5 Instances + 60 Negative samples) = 2450 Samples
 
 ## Citation
-If you use this dataset, please cite the following paper:
+If you use this dataset, please cite the following paper [PDF](https://arxiv.org/pdf/2111.06195.pdf):
 
 @misc{DIGesture,  
       title={Towards Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal},   

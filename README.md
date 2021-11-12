@@ -45,7 +45,7 @@ User S-User Y (7) | 7 Users x 1 Room x 5 Locations x (6 Gestures x 5 Instances +
 ## Citation
 If you use this dataset, please cite the following paper:
 
-@misc{li2021domainindependent,  
+@misc{DIGesture,  
       title={Towards Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal},   
       author={Yadong Li and Dongheng Zhang and Jinbo Chen and Jinwei Wan and Dong Zhang and Yang Hu and Qibin Sun and Yan Chen},  
       year={2021},  

@@ -48,7 +48,7 @@ User O-User R (4) | 4 Users x 1 Room x 5 Locations x (6 Gestures  x 10 Instances
 User S-User Y (7) | 7 Users x 1 Room x 5 Locations x (6 Gestures x 5 Instances + 60 Negative samples) = 2450 Samples
 
 # How to access the dataset
-To obtain the dataset, please sign the agreement, scan and send it to yadongli@mail.ustc.edu.cn. Then a notification email which includes the download links of the dataset will be received in three days.
+To obtain the dataset, please sign the [agreement](https://github.com/DI-HGR/cross_domain_gesture_dataset/blob/dfdbf209ec3cb205110e213a2c72b268dd437ed0/agreement.pdf), scan and send it to yadongli@mail.ustc.edu.cn. Then a notification email which includes the download links of the dataset will be received in three days.
 
 ## Citation
 If you use this dataset, please cite the following paper [[PDF]](https://arxiv.org/pdf/2111.06195.pdf):

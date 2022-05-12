@@ -1,5 +1,5 @@
 # mmWave_cross_domain_gesture_dataset
-This is an open-source mmWave gesture dataset collected from various domains (i.e. environments, users and locations), and it can be used to develop domain-independent gesture recognition systems based on mmWave radar. The total size of the processed dataset is 5.3GB and it can be downloaded from [Google drive](https://drive.google.com/file/d/1zI2tIdUZfkuOs2PK5mYnzfSK8XBBqL--/view?usp=sharing). The raw dataset is about 700GB and can be downloaded [here](https://rec.ustc.edu.cn/share/b5999300-564b-11ec-96cb-29f7856f340e). Following we introduce the composition and implementation details of this dataset. 
+This is an open-source mmWave gesture dataset collected from various domains (i.e. environments, users and locations), and it can be used to develop domain-independent gesture recognition systems based on mmWave radar. The total size of the processed dataset is 5.3GB and the raw dataset is about 700GB. Following we introduce the composition and implementation details of this dataset. 
 # Dataset Introduction
 ![Data collecting](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/f1116dc135d9783a0f1a806ae63b8e577bc41a09/env.png)
 - **750 domains**: 6 environments x 25 volunteers x 5 locations
@@ -47,6 +47,9 @@ User M-User N (2) | 2 Users x 2 Rooms x 5 Locations x (6 Gestures x 5 Instances 
 User O-User R (4) | 4 Users x 1 Room x 5 Locations x (6 Gestures  x 10 Instances + 60 Negative samples) = 2000 Samples
 User S-User Y (7) | 7 Users x 1 Room x 5 Locations x (6 Gestures x 5 Instances + 60 Negative samples) = 2450 Samples
 
+# How to access the dataset
+To obtain the dataset, please sign the agreement, scan and send it to yadongli@mail.ustc.edu.cn. Then a notification email which includes the download links of the dataset will be received in three days.
+
 ## Citation
 If you use this dataset, please cite the following paper [[PDF]](https://arxiv.org/pdf/2111.06195.pdf):
 
@@ -58,3 +61,5 @@ If you use this dataset, please cite the following paper [[PDF]](https://arxiv.o
       archivePrefix={arXiv},  
       primaryClass={cs.CV}  
 }
+
+

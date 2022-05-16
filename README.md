@@ -1,4 +1,4 @@
-# mmWave_cross_domain_gesture_dataset
+# mmWave_cross_domain_gesture_dataset (MCD-Gesture Dataset)
 This is an open-source mmWave gesture dataset collected from various domains (i.e. environments, users and locations), and it can be used to develop domain-independent gesture recognition systems based on mmWave radar. The total size of the processed dataset is 5.3GB and the raw dataset is about 700GB. Following we introduce the composition and implementation details of this dataset. 
 # Dataset Introduction
 ![Data collecting](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/f1116dc135d9783a0f1a806ae63b8e577bc41a09/env.png)

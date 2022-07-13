@@ -66,6 +66,7 @@ You may also be interested in the Human Indoor Behavior Exclusive RF dataset [HI
 
 @ARTICLE{9793363,
   author={Wu, Zhi and Zhang, Dongheng and Xie, Chunyang and Yu, Cong and Chen, Jinbo and Hu, Yang and Chen, Yan},
+  
   journal={IEEE Transactions on Multimedia}, 
   title={RFMask: A Simple Baseline for Human Silhouette Segmentation With Radio Signals}, 
   year={2022},

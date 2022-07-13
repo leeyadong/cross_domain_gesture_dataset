@@ -51,7 +51,7 @@ User S-User Y (7) | 7 Users x 1 Room x 5 Locations x (6 Gestures x 5 Instances +
 To obtain the dataset, please sign the [agreement](https://github.com/DI-HGR/cross_domain_gesture_dataset/blob/77d6981a780c95c87b22b41cfa485be37b5c9a59/dataset_agreement.pdf), scan and send it to yadongli@mail.ustc.edu.cn. Then you will receive a notification email which includes the download links of the dataset within three days.
 
 ## Citation
-If you use this dataset, please cite the following paper [[PDF]](https://arxiv.org/pdf/2111.06195.pdf):
+-If you use this dataset, please cite the following paper [[PDF]](https://arxiv.org/pdf/2111.06195.pdf):
 
 @misc{DIGesture,  
       title={Towards Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal},   
@@ -62,42 +62,12 @@ If you use this dataset, please cite the following paper [[PDF]](https://arxiv.o
       primaryClass={cs.CV}  
 }
 
-You may also be interested in the Human Indoor Behavior Exclusive RF dataset [HIBER](https://github.com/wuzhiwyyx/HIBER/tree/master)
+-You may also be interested in the Human Indoor Behavior Exclusive RF dataset [HIBER](https://github.com/wuzhiwyyx/HIBER/tree/master)
 
-@ARTICLE{RFMask,
-  author={Wu, Zhi and Zhang, Dongheng and Xie, Chunyang and Yu, Cong and Chen, Jinbo and Hu, Yang and Chen, Yan},
-  
-  journal={IEEE Transactions on Multimedia}, 
-  
-  title={RFMask: A Simple Baseline for Human Silhouette Segmentation With Radio Signals}, 
-  
-  year={2022},
-  
-  volume={},
-  
-  number={},
-  
-  pages={1-12},
-  
-  doi={10.1109/TMM.2022.3181455}}
+Z. Wu et al., "RFMask: A Simple Baseline for Human Silhouette Segmentation With Radio Signals," in IEEE Transactions on Multimedia, 2022, doi: 10.1109/TMM.2022.3181455.
+
+C. Yu, Z. Wu, D. Zhang, Z. Lu, Y. Hu and Y. Chen, "RFGAN: RF-Based Human Synthesis," in IEEE Transactions on Multimedia, doi: 10.1109/TMM.2022.3153136.
 
 
-@ARTICLE{RFGAN,
-
-  author={Yu, Cong and Wu, Zhi and Zhang, Dongheng and Lu, Zhi and Hu, Yang and Chen, Yan},
-  
-  journal={IEEE Transactions on Multimedia}, 
-  
-  title={RFGAN: RF-Based Human Synthesis}, 
-  
-  year={2022},
-  
-  volume={},
-  
-  number={},
-  
-  pages={1-1},
-  
-  doi={10.1109/TMM.2022.3153136}}
 
 

@@ -63,6 +63,7 @@ If you use this dataset, please cite the following paper [[PDF]](https://arxiv.o
 }
 
 You may also be interested in the Human Indoor Behavior Exclusive RF dataset [HIBER](https://github.com/wuzhiwyyx/HIBER/tree/master)
+
 @ARTICLE{9793363,
   author={Wu, Zhi and Zhang, Dongheng and Xie, Chunyang and Yu, Cong and Chen, Jinbo and Hu, Yang and Chen, Yan},
   journal={IEEE Transactions on Multimedia}, 

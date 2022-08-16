@@ -25,7 +25,7 @@ Idle time |340µs|Chirps in one frame |128
 Ramp end time |40µs|Frame periodicity |50ms
 
 
-Under these settings the radar achieves a frame rate of **20fps**, a range resolution of **0.047m**, a velocity resolution of **0.039m/s**. We activate 2 transmitting antennas and 4 receiving antennas to obtain an approximately angular resolution of **15°**.
+Under these settings the radar achieves a frame rate of **20fps**, a range resolution of **0.047m**, a velocity resolution of **0.039m/s**. The number of activated transmitting antennas and receiving antennas are 2 and 4, respectively.
 
 ## Data preprocessing
 The raw signals are processed into **Dynamic Range Agnle Image (DRAI)** sequences through 3D-FFT and noise elimination. DRAI depicts doppler power distribution over spatial positions when people perform gestures. For example, the following figure shows a series of DRAI when user perform gesture "push". In DRAI, the pixel intensity corresponds to doppler power, the horizontal axis is angle of arrival and the vertical axis is range. It can be observed that when users perform push, the brightest spot moves vertically which denotes distance changes of hands.

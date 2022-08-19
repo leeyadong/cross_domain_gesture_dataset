@@ -1,5 +1,5 @@
 # mmWave_cross_domain_gesture_dataset (MCD-Gesture Dataset)
-MCD-Gesture is an open-source mmWave gesture dataset collected from various domains (i.e. environments, users and locations), and it can be used to develop domain-independent gesture recognition systems based on mmWave radar. The total size of the processed dataset is 5.3GB and the raw dataset is about 700GB. Following we introduce the composition and implementation details of this dataset. 
+MCD-Gesture is an open-source mmWave gesture dataset collected from various domains (i.e. environments, users and locations), and it can be used to develop domain-independent gesture recognition systems based on mmWave radar. The total size of the processed dataset is 5.3GB. Following we introduce the composition and implementation details of this dataset. 
 # Dataset Introduction
 ![Data collecting](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/f1116dc135d9783a0f1a806ae63b8e577bc41a09/env.png)
 - **750 domains**: 6 environments x 25 volunteers x 5 locations
@@ -33,7 +33,6 @@ The raw signals are processed into **Dynamic Range Agnle Image (DRAI)** sequence
 ![push](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/89f8dedbbcbbabd2eb627e8d10712dab9f5016d2/push.png)
 ## Dataset Structure
 - The DRAI sequence of each gesture sample is saved as numpy array with 3 dimensions T x 32 x 32, where the first dimension represents the frame length of the DRAI sequence, and the last two dimensions represent the size of one frame DRAI.  The format of each .npy filename is **y/n_GestureName_EnvironmentLabel_UserLabel_PositionLabel_SampleLabel.npy** and the first character represents whether it is a predefined gesture (y) or negative sample (n). For example, the filename "y_SlideRight_e6_u21_p5_s4" denotes that it is the 4th sample of predefined gesture "SlideRight" performed by user21 at location5 in environment6.
-- The gesture samples of the raw dataset is saved as numpy array with 5 dimensions T x 128 x 64 x 4 x2, where the first dimension represents the frame length, the second dimension represents the ADC sample number of one chirp, the third dimension represents the chirp number of each trasmitting antenna, the fourth dimension represents the number of trasmitting antenna, the last dimension represents the number of receiving antenna. The format of each .npy filename is same as mentioned before.
 - The example video of how to perform the predefined gestures can be viewed [here](https://github.com/DI-HGR/cross_domain_gesture_dataset/blob/df3663a87b71f58edaf694b033793218bb766ac1/gesture_sample.MP4).
 
 - The number of samples collected from each volunteer is as follows:

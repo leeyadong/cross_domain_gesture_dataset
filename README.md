@@ -54,7 +54,7 @@ To obtain the dataset, please sign the [agreement](datasetAgreement.pdf), scan a
 
 **Y. Li et al., "Towards Domain-Independent and Real-Time Gesture Recognition Using Mmwave Signal," in IEEE Transactions on Mobile Computing, 2022, doi: 10.1109/TMC.2022.3207570.**
 
--You may also be interested in the Human Indoor Behavior Exclusive RF dataset [HIBER](https://github.com/wuzhiwyyx/HIBER/tree/master)
+-You may also be interested in the Human Indoor Behavior Exclusive RF dataset [HIBER](https://github.com/wuzhiwyyx/HIBER/tree/master).
 
 Z. Wu et al., "RFMask: A Simple Baseline for Human Silhouette Segmentation With Radio Signals," in IEEE Transactions on Multimedia, 2022, doi: 10.1109/TMM.2022.3181455.
 

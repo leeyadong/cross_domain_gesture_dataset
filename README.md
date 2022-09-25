@@ -47,19 +47,12 @@ User O-User R (4) | 4 Users x 1 Room x 5 Locations x (6 Gestures  x 10 Instances
 User S-User Y (7) | 7 Users x 1 Room x 5 Locations x (6 Gestures x 5 Instances + 60 Negative samples) = 2450 Samples
 
 # How to access the dataset
-To obtain the dataset, please sign the [agreement](https://github.com/DI-HGR/cross_domain_gesture_dataset/blob/e902fcc525894ea79621460eaf5edf7eba5b4d95/datasetAgreement.pdf), scan and send it to yadongli@mail.ustc.edu.cn. Then you will receive a notification email which includes the download links of the dataset within three days.
+To obtain the dataset, please sign the [agreement](datasetAgreement.pdf), scan and send it to yadongli@mail.ustc.edu.cn. You will receive a notification email which includes the download links of the dataset in three days.
 
 ## Citation
--If you use this dataset, please cite the following paper [[PDF]](https://arxiv.org/pdf/2111.06195v2.pdf):
+-If you use this dataset, please cite the following paper :
 
-@misc{DIGesture,  
-      title={Towards Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal},   
-      author={Yadong Li and Dongheng Zhang and Jinbo Chen and Jinwei Wan and Dong Zhang and Yang Hu and Qibin Sun and Yan Chen},  
-      year={2021},  
-      eprint={2111.06195},  
-      archivePrefix={arXiv},  
-      primaryClass={cs.CV}  
-}
+**Y. Li et al., "Towards Domain-Independent and Real-Time Gesture Recognition Using Mmwave Signal," in IEEE Transactions on Mobile Computing, 2022, doi: 10.1109/TMC.2022.3207570.**
 
 -You may also be interested in the Human Indoor Behavior Exclusive RF dataset [HIBER](https://github.com/wuzhiwyyx/HIBER/tree/master)
 

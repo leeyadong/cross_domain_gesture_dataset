@@ -51,8 +51,17 @@ To obtain the dataset, please sign the [agreement](datasetAgreement.pdf), scan a
 
 ## Citation
 -If you use this dataset, please cite the following paper :
-
-**Y. Li et al., "Towards Domain-Independent and Real-Time Gesture Recognition Using Mmwave Signal," in IEEE Transactions on Mobile Computing, 2022, doi: 10.1109/TMC.2022.3207570.**
+```
+@ARTICLE{9894724,
+  author={Li, Yadong and Zhang, Dongheng and Chen, Jinbo and Wan, Jinwei and Zhang, Dong and Hu, Yang and Sun, Qibin and Chen, Yan},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title={Towards Domain-Independent and Real-Time Gesture Recognition Using Mmwave Signal}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-15},
+  doi={10.1109/TMC.2022.3207570}}
+```
 
 ```
 @INPROCEEDINGS{10001175,

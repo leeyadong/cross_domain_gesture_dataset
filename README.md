@@ -54,7 +54,16 @@ To obtain the dataset, please sign the [agreement](datasetAgreement.pdf), scan a
 
 **Y. Li et al., "Towards Domain-Independent and Real-Time Gesture Recognition Using Mmwave Signal," in IEEE Transactions on Mobile Computing, 2022, doi: 10.1109/TMC.2022.3207570.**
 
-**Y. Li et al., "DI-Gesture: Domain-Independent and Real-Time Gesture Recognition with Millimeter-Wave Signals," GLOBECOM 2022 - 2022 IEEE Global Communications Conference, Rio de Janeiro, Brazil, 2022, pp. 5007-5012, doi: 10.1109/GLOBECOM48099.2022.10001175.**
+**@INPROCEEDINGS{10001175,
+  author={Li, Yadong and Zhang, Dongheng and Chen, Jinbo and Wan, Jinwei and Zhang, Dong and Hu, Yang and Sun, Qibin and Chen, Yan},
+  booktitle={GLOBECOM 2022 - 2022 IEEE Global Communications Conference}, 
+  title={DI-Gesture: Domain-Independent and Real-Time Gesture Recognition with Millimeter-Wave Signals}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={5007-5012},
+  doi={10.1109/GLOBECOM48099.2022.10001175}}
+**
 
 
 -You may also be interested in the Human Indoor Behavior Exclusive RF dataset [HIBER](https://github.com/wuzhiwyyx/HIBER/tree/master).

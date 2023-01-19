@@ -53,6 +53,7 @@ To obtain the dataset, please sign the [agreement](datasetAgreement.pdf), scan a
 -If you use this dataset, please cite the following paper :
 
 **Y. Li et al., "Towards Domain-Independent and Real-Time Gesture Recognition Using Mmwave Signal," in IEEE Transactions on Mobile Computing, 2022, doi: 10.1109/TMC.2022.3207570.**
+
 **Y. Li et al., "DI-Gesture: Domain-Independent and Real-Time Gesture Recognition with Millimeter-Wave Signals," GLOBECOM 2022 - 2022 IEEE Global Communications Conference, Rio de Janeiro, Brazil, 2022, pp. 5007-5012, doi: 10.1109/GLOBECOM48099.2022.10001175.**
 
 

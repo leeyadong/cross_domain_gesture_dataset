@@ -1,10 +1,19 @@
-# mmWave_cross_domain_gesture_dataset (MCD-Gesture Dataset)
-MCD-Gesture is an open-source mmWave gesture dataset collected from various domains (i.e. environments, users and locations), and it can be used to develop domain-independent gesture recognition systems based on mmWave radar. The total size of the processed dataset is 5.3GB. Following we introduce the composition and implementation details of this dataset. 
+# MCD-Gesture Dataset: mmWave Cross Domain Gesture Dataset
+# News
+- We have released various human sensing datasets based on wireless signals, including [WiFi localization](https://github.com/H-WILD/human_held_device_wifi_indoor_localization_dataset) and [mmWave imaging](https://github.com/ruixv/RadarEyes). 
+  
+- This dataset has been downloaded by researchers from over **60 institutions** worldwide. 
+
+- We have released the **raw ADC data** to support custom signal processing techniques.
+
+# Overview
+This is the dataset for paper **"Towards Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal, IEEE TMC 2022".** It is an open-source mmWave gesture dataset collected from various domains (i.e. environments, users, and locations), and it can be used to develop mmWave gesture recognition systems and domain-independent machine learning algorithms. Following we introduce the composition and implementation details of this dataset. 
+
 # Dataset Introduction
 ![Data collecting](https://github.com/DI-HGR/mmWave_cross_domain_gesture_dataset/blob/f1116dc135d9783a0f1a806ae63b8e577bc41a09/env.png)
 - **750 domains**: 6 environments x 25 volunteers x 5 locations
-- **6 environments**：meeting room, living room, bedroom, laboratory and 2 office rooms
-- **25 volunteers**：25 users with different sex, ages, heights and weights.
+- **6 environments**：meeting room, living room, bedroom, laboratory, and 2 office rooms
+- **25 volunteers**：25 users with different sex, ages, heights, and weights.
 - **5 locations**：5 anchor locations with different distances and angles away from the radar, ranging from 0.6m to 1m and -30° ,to 30°.
 - **13 gestures**: 6 predefined gestures (push, pull, slide left, slide right, clockwise turning, counterclockwise turning) and 7 other actions as negative samples (lifting right arm, lifting left arm, sitting down, standing up, waving hand, turn around, walking).
 - **24050 samples**: 10650 gesture samples + 13400 negative samples, with 695193 radar frames in total.
@@ -50,7 +59,7 @@ User S-User Y (7) | 7 Users x 1 Room x 5 Locations x (6 Gestures x 5 Instances +
 To obtain the dataset, please sign the [agreement](datasetAgreement.pdf), scan and send it to yadongli@mail.ustc.edu.cn. You will receive a notification email which includes the download links of the dataset in three days.
 
 ## Citation
--If you use this dataset, please cite the following paper :
+-If you find this dataset helpful, please cite the following paper :
 ```
 @ARTICLE{9894724,
   author={Li, Yadong and Zhang, Dongheng and Chen, Jinbo and Wan, Jinwei and Zhang, Dong and Hu, Yang and Sun, Qibin and Chen, Yan},
@@ -76,7 +85,7 @@ To obtain the dataset, please sign the [agreement](datasetAgreement.pdf), scan a
 ```
 
 
--You may also be interested in the Human Indoor Behavior Exclusive RF dataset [HIBER](https://github.com/wuzhiwyyx/HIBER/tree/master).
+
 
 
 

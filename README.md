@@ -59,17 +59,18 @@ User S-User Y (7) | 7 Users x 1 Room x 5 Locations x (6 Gestures x 5 Instances +
 To obtain the dataset, please sign the [agreement](datasetAgreement.pdf), scan and send it to yadongli@mail.ustc.edu.cn. You will receive a notification email which includes the download links of the dataset in three days.
 
 ## Citation
--If you use this dataset, please cite the following paper :
+-If you find this dataset useful for your research, please consider citing the following papers:
 ```
 @ARTICLE{9894724,
   author={Li, Yadong and Zhang, Dongheng and Chen, Jinbo and Wan, Jinwei and Zhang, Dong and Hu, Yang and Sun, Qibin and Chen, Yan},
   journal={IEEE Transactions on Mobile Computing}, 
-  title={Towards Domain-Independent and Real-Time Gesture Recognition Using Mmwave Signal}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={1-15},
+  title={Towards Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal}, 
+  year={2023},
+  volume={22},
+  number={12},
+  pages={7355-7369},
   doi={10.1109/TMC.2022.3207570}}
+
 ```
 
 ```

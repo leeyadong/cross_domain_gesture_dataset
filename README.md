@@ -58,7 +58,7 @@ User O-User R (4) | 4 Users x 1 Room x 5 Locations x (6 Gestures  x 10 Instances
 User S-User Y (7) | 7 Users x 1 Room x 5 Locations x (6 Gestures x 5 Instances + 60 Negative samples) = 2450 Samples
 
 # How to access the dataset
-To obtain the dataset, please sign the [agreement](datasetAgreement.pdf), scan and send it to yadongli@mail.ustc.edu.cn. You will receive a notification email which includes the download links of the dataset in three days.
+To obtain the dataset, please sign the [agreement](datasetAgreement.pdf), scan and send it to yadongli@uw.edu. You will receive a notification email which includes the download links of the dataset in three days.
 
 ## Citation
 -If you find this dataset useful for your research, please consider citing the following papers:
